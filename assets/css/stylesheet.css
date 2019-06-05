@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css?family=Catamaran');
+
+@media only screen and (min-device-width : 375px) and (max-device-width : 812px) and (-webkit-device-pixel-ratio : 3) and (orientation : portrait) {}
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (-webkit-min-device-pixel-ratio: 1) and (orientation: portrait) {}
+
+/*presets*/
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 5px;
+    font-family: 'Catamaran', sans-serif;
+}
+
+/*body*/
+
+body {
+    padding-top: 130px;
+    background-image: url("../img/background.jpg");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.container{
+    background-image: none;
+}
+
+header img {
+    width: 100px;
+    height: 60px;
+    padding: 0px;
+}
+
+#navImg {
+    margin-bottom: 11px;
+}
+
+h1 {
+    font-size: 60px;
+    text-align: center;
+}
+
+h2 {
+    text-align: center;
+    font-size: 40px;
+}
+
+p {
+    text-align: center;
+    font-size: 30px;
+}
+
+ul {
+    text-align: center padding: 0px;
+    margin: 0px;
+    list-style-type: none;
+}
+
+li {
+    padding: 0px;
+    margin: 0px;
+}
+
+form {
+    text-align: center;
+    padding: 0px;
+    margin: 0px;
+}
+
+.inputComment{
+    width: 400px;
+    height: 100px;
+}
+
+.container {
+    z-index: 1;
+}
+
+.overlay {
+    text-align: center;
+}
+
+/*nav*/
+
+.navbar-nav {
+    font-size: 25px;
+}
+
+.dropdown-menu a:hover {
+    color: #FFF;
+    background: #343a40;
+}
+
+.nav-link{
+    margin-bottom: 10px;
+}
+
+/*table*/
+
+tr {
+    background-color: rgba(170, 180, 180, 0.8)
+}
+
+.table td {
+    border: black solid 2px;
+}
+
+.table th {
+    border: black solid 2px;
+}
+
+td {
+    text-align: center;
+}
+
+th {
+    text-align: center;
+}
+
+.teamImage {
+    height: 50px;
+    width: 50px;
+    display: block;
+    margin: 40px auto 10px;
+    vertical-align: middle;
+
+}
+
+.rank{
+    text-align: center;
+    vertical-align: middle;
+    line-height: 180px;
+
+}
+
+.playerFlag {
+    height: 20px;
+    width: 25px;
+}
+
+
+table {
+    font-size: 25px;
+}
+
+.teamComment{
+    text-align: left;
+}
