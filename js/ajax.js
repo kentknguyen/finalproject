@@ -60,9 +60,9 @@ $('document').ready(function() {
                         </tr>
                     `);
                 });
-            }
+            };
         });
-    }
+    };
 tableLoad();
 
     $("form").submit(function (e) {
@@ -78,10 +78,8 @@ tableLoad();
             success: function () {
                 console.log('got here');
                 tableLoad();
-            }
+            };
         });
         e.preventDefault();
     });
-    
-    
 });
